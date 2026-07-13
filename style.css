@@ -1,0 +1,14 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+    font-family: iranSans;
+    src: url(Assets/fonts/IRANSansXV.woff2);
+}
+
+body{
+font-family: iranSans;
+}
