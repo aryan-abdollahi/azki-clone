@@ -5,10 +5,84 @@
 }
 
 @font-face {
-    font-family: iranSans;
-    src: url(Assets/fonts/IRANSansXV.woff2);
+  font-family: Iransans;
+  src: url(assets/font/IRANSansXV.woff2);
 }
 
-body{
-font-family: iranSans;
+header {
+  display: flex;
+  font-family: Iransans;
+  justify-content: center;
+  align-items: center;
+  padding: 8px;
+  background-color: whitesmoke;
+}
+
+.header-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4px;
+  gap: 20px;
+}
+
+.item-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+ul {
+  display: flex;
+  padding: 16px;
+  gap: 32px;
+  font-family: iransans;
+}
+
+.button-support {
+  display: flex;
+  font-size: 14px;
+  background-color: rgb(0, 143, 255);
+}
+
+.button-submit {
+  display: flex;
+  background-color: #008fff;
+  justify-content: center;
+  align-items: center;
+  padding: 4px;
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: 500;
+}
+
+.button-submit > .button-support {
+  gap: 16px;
+}
+
+.img-section-logo {
+  display: flex;
+  width: 32px;
+  height: 32px;
+  border-bottom-left-radius: 16px;
+  border-bottom-right-radius: 16px;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+  border-radius: 16px;
+}
+
+.img-section-logo-left {
+  display: flex;
+  width: 54px;
+  height: 24px;
+}
+
+.logo-section {
+  display: flex;
+  color: rgba(4, 10, 31, 0.6);
+  font-size: 24px;
+  width: 24px;
+  height: 24px;
 }
