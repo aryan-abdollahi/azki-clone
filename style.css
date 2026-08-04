@@ -74,12 +74,11 @@ header {
 .button-support {
   display: flex;
   flex-direction: row-reverse;
-  cursor: pointer;
-  font-size: 20px;
-  color: #008fff;
-  margin-right: 8px;
-  text-decoration: none;
+  font-size: 16px;
+  font-family: iranSans;
+  background-color: transparent;
   border: none;
+  color: rgb(0, 143, 255);
 }
 
 .img-section-logo {
@@ -94,18 +93,13 @@ header {
 }
 
 .img-section-logo-left {
-  display: flex;
-  width: 24px;
+  width: 54px;
   height: 24px;
-  color: rgb(0, 143, 255);
 }
 
 .logo-section {
-  display: flex;
-  color: rgba(4, 10, 31, 0.6);
-  font-size: 24px;
-  width: 24px;
-  height: 24px;
+  width: 32px;
+  height: 32px;
 }
 
 .header-section-leftside {
@@ -122,21 +116,18 @@ header {
   height: 24px;
 }
 
-.button-submit {
+.button-signup {
   display: flex;
+  font-family: iranSans;
   color: rgb(0, 143, 255);
   background-color: transparent;
   justify-content: center;
   align-items: center;
-  cursor: pointer;
   font-family: iranSans;
   border: 1px solid rgba(0, 143, 255, 0.5);
   font-size: 14px;
   padding: 4px 8px;
-  border-bottom-left-radius: 32px;
-  border-bottom-right-radius: 32px;
-  border-top-left-radius: 32px;
-  border-top-right-radius: 32px;
+  border-radius: 32px;
 }
 
 li:hover {
@@ -145,16 +136,10 @@ li:hover {
 }
 
 .button-support:hover {
-  color: rgb(0, 143, 255);
-  font-size: 100%;
+  background-color:transparent;
 }
 
-.button-submit:hover {
-  color: rgb(0, 143, 255);
-  font-size: 100%;
+.button-signup:hover {
+  background-color: aliceblue;
 }
 
-.img-section-logo:hover {
-  color: white;
-  font-size: 100%;
-}
