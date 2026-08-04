@@ -44,7 +44,8 @@ header {
   justify-content: center;
   align-items: center;
   font-family: iranSans;
-  font-size: 14px;
+  font-size: 0.875rem;
+  gap: 8px;
 }
 
 .item-section {
@@ -52,11 +53,8 @@ header {
   justify-content: center;
   align-items: center;
   background-color: transparent;
-  font-size: 14px;
-  padding-bottom: 16px;
-  padding-left: 16px;
-  padding-right: 16px;
-  padding-top: 16px;
+  font-size: 0.875rem;
+  padding: 16px;
 }
 
 .header-section-items {
@@ -67,28 +65,24 @@ header {
   font-family: iransans;
   margin-right: 32px;
   background-color: transparent;
-  font-size: 16px;
+  font-size: 1rem;
   list-style: none;
 }
 
 .button-support {
   display: flex;
   flex-direction: row-reverse;
-  font-size: 16px;
+  font-size: 1rem;
   font-family: iranSans;
   background-color: transparent;
   border: none;
-  color: rgb(0, 143, 255);
+  color: #008fff;
 }
 
 .img-section-logo {
   display: flex;
   width: 32px;
   height: 32px;
-  border-bottom-left-radius: 16px;
-  border-bottom-right-radius: 16px;
-  border-top-left-radius: 16px;
-  border-top-right-radius: 16px;
   border-radius: 16px;
 }
 
@@ -119,27 +113,25 @@ header {
 .button-signup {
   display: flex;
   font-family: iranSans;
-  color: rgb(0, 143, 255);
+  color: #008fff;
   background-color: transparent;
   justify-content: center;
   align-items: center;
   font-family: iranSans;
-  border: 1px solid rgba(0, 143, 255, 0.5);
-  font-size: 14px;
+  border: 1px solid #008fff80;
+  font-size: 0.875rem;
   padding: 4px 8px;
   border-radius: 32px;
 }
 
 li:hover {
-  color: rgb(0, 143, 255);
-  font-size: 100%;
+  color: #008fff;
 }
 
 .button-support:hover {
-  background-color:transparent;
+  background-color: transparent;
 }
 
 .button-signup:hover {
-  background-color: aliceblue;
+  background-color: #008fff0a;
 }
-
