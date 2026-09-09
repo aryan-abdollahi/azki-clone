@@ -1,0 +1,137 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: iranSans;
+  src: url(Assets/Fonts/IRANSansXV.woff2);
+}
+
+body {
+  font-family: iranSans;
+}
+
+header {
+  display: flex;
+  font-family: Iransans;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: white;
+}
+
+.header-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 144px;
+  width: 100%;
+  gap: 20px;
+}
+
+.header-section-rightside {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-section-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: iranSans;
+  font-size: 0.875rem;
+  gap: 8px;
+}
+
+.item-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  font-size: 0.875rem;
+  padding: 16px;
+}
+
+.header-section-items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 32px;
+  font-family: iransans;
+  margin-right: 32px;
+  background-color: transparent;
+  font-size: 1rem;
+  list-style: none;
+}
+
+.button-support {
+  display: flex;
+  flex-direction: row-reverse;
+  font-size: 1rem;
+  font-family: iranSans;
+  background-color: transparent;
+  border: none;
+  color: #008fff;
+}
+
+.img-section-logo {
+  display: flex;
+  width: 32px;
+  height: 32px;
+  border-radius: 16px;
+}
+
+.img-section-logo-left {
+  width: 54px;
+  height: 24px;
+}
+
+.logo-section {
+  width: 32px;
+  height: 32px;
+}
+
+.header-section-leftside {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 8px;
+  gap: 16px 16px;
+}
+
+.Icon-section {
+  width: 24px;
+  height: 24px;
+}
+
+.button-signup {
+  display: flex;
+  font-family: iranSans;
+  color: #008fff;
+  background-color: transparent;
+  justify-content: center;
+  align-items: center;
+  font-family: iranSans;
+  border: 1px solid #008fff80;
+  font-size: 0.875rem;
+  padding: 4px 8px;
+  border-radius: 32px;
+}
+
+li:hover {
+  color: #008fff;
+}
+
+.button-support:hover {
+  background-color: transparent;
+}
+
+.button-signup:hover {
+  background-color: #008fff0a;
+}
