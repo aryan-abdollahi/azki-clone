@@ -139,3 +139,84 @@ li:hover {
 main {
   min-height: 100dvh;
 }
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-top-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #040a1fde;
+  max-width: 1280px;
+  padding: 0 32px;
+  border-radius: 48px;
+}
+
+.footer-top-section-right {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-top-section-right-img {
+  width: 96px;
+  height: 96px;
+}
+
+.footer-top-section-right-description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.footer-top-section-left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-top-section-left-cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  img {
+    width: 168px;
+    height: 40;
+  }
+}
+
+.footer-top-section-left-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-down-section{
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+  font-size: 14px;
+  font-family: iransans;
+  text-align:justify;
+  width: 270px;
+  height: 48px;
+  right: 24px;
+}
+
+.azki-logo-section{
+  display: flex;
+  flex-direction: column;
+  font-family: iransans;
+  width: 80px;
+  height: 28px;
+  
+}
