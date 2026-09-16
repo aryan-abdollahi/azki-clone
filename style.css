@@ -203,13 +203,14 @@ footer {
 .footer-down-section{
   display: flex;
   flex-direction:column;
+  justify-content: space-between;
   align-items: center;
   font-size: 14px;
   font-family: iransans;
-  text-align:justify;
   width: 270px;
   height: 48px;
-  right: 24px;
+  text-align: justify;
+  font-weight: 400;
 }
 
 .azki-logo-section{
