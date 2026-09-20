@@ -145,21 +145,21 @@ footer {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  background-color: whitesmoke;
 }
 
 .footer-top-section {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   background-color: #040a1fde;
-  max-width: 1280px;
+  min-width: 1280px;
   padding: 0 32px;
   border-radius: 48px;
 }
 
 .footer-top-section-right {
   display: flex;
-  flex-direction: row;
   align-items: center;
   justify-content: center;
 }
@@ -179,15 +179,23 @@ footer {
 
 .footer-top-section-left {
   display: flex;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
+  background-color: transparent;
+  position: relative;
+  cursor: pointer;
+  font-family: iransans;
+  font-size: 14px;
+  text-decoration: none;
+  border-radius: 8px;
+  padding: 6px 8px;
 }
 
 .footer-top-section-left-cards {
   display: flex;
   justify-content: center;
   align-items: center;
-
   img {
     width: 168px;
     height: 40;
@@ -198,26 +206,111 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: transparent;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  border-bottom-color: rgb(255, 255, 255);
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  margin-right: 16px;
+  padding-bottom: 6px;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 6px;
+  position: relative;
+  color: white;
+  text-decoration-line: none;
+  text-decoration-style: solid;
+  text-transform: uppercase;
 }
 
-.footer-down-section{
-  display: flex;
-  flex-direction:column;
-  justify-content: space-between;
-  align-items: center;
-  font-size: 14px;
-  font-family: iransans;
-  width: 270px;
-  height: 48px;
-  text-align: justify;
-  font-weight: 400;
-}
-
-.azki-logo-section{
+.azki-logo-section {
   display: flex;
   flex-direction: column;
-  font-family: iransans;
   width: 80px;
   height: 28px;
+}
+
+.footer-top-section-left-button:hover {
+  background-color: rgb(174, 157, 157);
+}
+
+.paragraph-right-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: iransans;
+  font-size: 16px;
+  padding-left: 1000px;
+}
+
+h3 {
+  color: blue;
+}
+
+.paragraph-down-right-section:hover {
+  color: blue;
+}
+
+.footer-down-section-right{
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  border-radius:12px;
+}
+a:hover{
+  color: blue;
+}
+
+a{
+  color: black;
+}
+
+.footer-down-section-center{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
   
+}
+
+h3{
+  color: blue;
+}
+
+.footer-down-paragraph-section-center:hover{
+
+  color: blue;
+}
+
+.footer-down-section-left{
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+h3{
+
+  color: blue;
+}
+
+.paragraph-down-left-section:hover{
+
+  color: blue;
+}
+
+.down-section-end{
+
+  display: flex;
+  padding: 16px 8px;
+  align-items: center;
+  background-color: #008fff;
 }
