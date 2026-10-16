@@ -40,7 +40,7 @@ header {
   align-items: center;
 }
 
-.header-section-logo {
+.header-section-logo > a {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -325,16 +325,16 @@ main {
   display: flex;
   flex-direction: column;
   width: 50%;
-  h1{
-    font-size:1.5rem;
+  h1 {
+    font-size: 1.5rem;
     line-height: 1.74rem;
     color: #040a1fde;
   }
-  p{
+  p {
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.5rem;
-    color:#040a1f99; ;
+    color: #040a1f99;
   }
 }
 
@@ -376,7 +376,6 @@ main {
   grid-column: span 2;
   grid-row: span 1;
 }
-
 
 .hero-section-bottom-main-section-md-card-top {
   display: flex;
@@ -428,9 +427,7 @@ main {
   font-weight: 400;
   line-height: 1.33rem;
   letter-spacing: -0.5%;
-
 }
-
 
 /* Small cards */
 .hero-section-bottom-main-section-sm-card {
@@ -443,7 +440,7 @@ main {
   box-shadow: 0 2px 8px #040a1f14;
   background-color: white;
   border-radius: 16px;
- 
+
   .image {
     width: 66px;
     height: 66px;
@@ -451,16 +448,15 @@ main {
   }
   p {
     color: #040a1f61;
-     font-size: 0.875rem;
-     line-height: 1.71rem;
-     font-weight: 400;
+    font-size: 0.875rem;
+    line-height: 1.71rem;
+    font-weight: 400;
   }
-  h2{
-     font-size: 0.875rem;
-     font-weight: 700;
-     line-height: 1.5rem;
-     color:#040a1fde; ;
-
+  h2 {
+    font-size: 0.875rem;
+    font-weight: 700;
+    line-height: 1.5rem;
+    color: #040a1fde;
   }
 }
 
@@ -478,20 +474,18 @@ main {
   letter-spacing: -0.5%;
 }
 
-.hero-section-bottom-footer-section{
-
+.hero-section-bottom-footer-section {
   display: flex;
   justify-content: center;
   align-items: center;
-  button{
-
-    background-color:#008fff;
+  button {
+    background-color: #008fff;
     color: white;
     padding: 8px 22px;
-    border:none;
+    border: none;
     border-radius: 8px;
     font-family: iranSans;
-}
+  }
 }
 
 footer {
